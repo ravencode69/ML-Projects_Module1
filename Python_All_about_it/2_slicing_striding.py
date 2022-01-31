@@ -15,5 +15,5 @@ print(digits[0:-1:2])
 
 print(digits[-1:-4:-2])  # careful with negative jump it is from left
 
-for x in range(len(digits)):
+for x in range(len(digits)):  # range returns 0 to number range(start(o), stop, step(o))
     print(digits[0:x])
