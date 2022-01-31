@@ -14,3 +14,6 @@ print(digits[1:-1])
 print(digits[0:-1:2])
 
 print(digits[-1:-4:-2])  # careful with negative jump it is from left
+
+for x in range(len(digits)):
+    print(digits[0:x])
