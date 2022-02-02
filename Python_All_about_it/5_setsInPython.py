@@ -10,3 +10,7 @@ no_duplicate = set(l)  # made list a set to remove duplicates
 print(no_duplicate)
 no_duplicate = list(no_duplicate)  # casting back to list
 print(no_duplicate)
+
+# The set() Constructor It is also possible to use the set() constructor to make a set.
+thisset = set(("apple", "banana", "cherry"))  # note the double round-brackets
+print(thisset)
