@@ -2,16 +2,16 @@ problems = 'too, cool, to, handle'
 print(problems)
 
 # Split a string into a list where each word is a list item:
-#string.split(separator, maxsplit(o))
+# string.split(separator, maxsplit(o)) #TO make a list from string
 
-l = problems.split(",")
+l = problems.split(",")  # to make a list
 print(l)
 
 l2 = problems.split(", ")
 print(l2)
 
-# join function
-joined = "richa is".join(l)
+# join function make a string
+joined = " richa is".join(l)
 print(joined)
 
 txt = "apple#banana#cherry#orange"
