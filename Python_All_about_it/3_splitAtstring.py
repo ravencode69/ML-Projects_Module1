@@ -1,7 +1,7 @@
 problems = 'too, cool, to, handle'
 print(problems)
 
-# Split a string into a list where each word is a list item:
+# The split() method splits a string into a list.
 # string.split(separator, maxsplit(o)) #TO make a list from string
 
 l = problems.split(",")  # to make a list
@@ -16,7 +16,7 @@ print(joined)
 
 txt = "apple#banana#cherry#orange"
 
-# setting the maxsplit parameter to 1, will return a list with 2 elements!
+# setting the maxsplit parameter to 1, will return a list with 3 elements!
 x = txt.split("#", 2)
 
 print(x)
