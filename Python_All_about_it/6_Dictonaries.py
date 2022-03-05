@@ -29,11 +29,3 @@ print(dict4.popitem())
 print(dict4)
 
 dict.clear()
-
-# basically
-# we need to split our dataset according to clear_date into two datasets
-# 1. df1 -> which contain all null valued rows for clear_date
-# 2. df2 -> in which there are no null values for clear_date
-# Now split df2 into training dataset and validation dataset
-# we can check accuracy with our validation dataset
-# and finally we need to predict clear_dates for df1
