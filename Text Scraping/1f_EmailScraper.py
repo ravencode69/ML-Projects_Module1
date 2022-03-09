@@ -6,6 +6,5 @@ pattern = re.compile("[a-zA-Z0-9\.\_]+@+[a-zA-Z0-9]+\.+[a-zA-Z]+")
 
 res = pattern.search(text)
 res2 = pattern.findall(text)
-
 print(res)
 print(res2)
