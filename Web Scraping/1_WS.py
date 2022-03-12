@@ -14,7 +14,12 @@ items = week.find_all(class_='tombstone-container')
 
 period_names = [item.find(class_='period-name').get_text() for item in items]
 short_desc = [item.find(class_='short-desc').get_text() for item in items]
-tem = [item.find(class_='temp').get_text() for item in items]
+try:
+    tem = [item.find(class_='temp').get_text() for item in items]
+
+except AttributeError:
+    tem = "no data"
+
 print(period_names)
 print(tem)
 print(short_desc)
