@@ -16,5 +16,7 @@ pr = [0.99, 0.23, 0.43]
 
 sentences = []
 for(item, count, pr) in zip(items, count, pr):
-    sentences.append = 'I buy'+count+''+item+'s'+pr+'.'
+    item, count, pr = str(item), str(count), str(pr)
+    sen1 = 'I bought '+count+' '+item+'s for '+pr+' .'
+    sentences.append(sen1)
 print(sentences)
