@@ -7,7 +7,7 @@ zip1 = list(zip(list1, list2))
 print(zip1)
 # [(1, 'two'), (2, 'three'), (3, 'four'), (4, 'one')
 
-unzip = list(zip(*zip1))
+unzip = list(zip(*zip1))  # unzipping the zip
 print(unzip)
 
 items = ['apple', 'banana', 'orange']
