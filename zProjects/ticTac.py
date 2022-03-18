@@ -2,6 +2,7 @@
 #board
 #display board
 #play game
+#the flow of the functions
 #check Win
   #check Rew
   #check col
